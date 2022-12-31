@@ -1,0 +1,11 @@
+## [Links] {{post_title}}
+
+🍊 [Link](Insert Link here)
+
+
+{% for post_title, post_link, thumbnail_link in links_with_metadata %}
+🌎 [{{ post_title }}]({{ post_link }})
+
+![]({{ thumbnail_link }})
+
+{% endfor %}
