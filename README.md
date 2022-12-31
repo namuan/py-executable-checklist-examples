@@ -38,6 +38,19 @@ options:
   -v, --verbose         Display context variables at each step
 
 ```
+[_listen_to.py_](https://namuan.github.io/bin-utils/listen_to.html)
+```
+usage: listen_to.py [-h] [-p ROOT_PATH] [-v]
+
+Downloads music from r/listentothis and saves them to a folder
+
+options:
+  -h, --help            show this help message and exit
+  -p ROOT_PATH, --root-path ROOT_PATH
+                        Path to the directory where the file will be created
+  -v, --verbose         Increase verbosity of logging output
+
+```
 [_links_to_hugo.py_](https://namuan.github.io/bin-utils/links_to_hugo.html)
 ```
 usage: links_to_hugo.py [-h] -l LINKS_FILE -t POST_TITLE -b BLOG_DIRECTORY

@@ -26,3 +26,4 @@ pytube
 vaderSentiment
 textual[dev]
 openai
+yt-dlp
